@@ -1,0 +1,165 @@
+#title{
+  background-color: #ff4c68;
+}
+
+/* HEadings */
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+}
+h3{
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.dog-image{
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  margin-left: 80px;
+}
+body{
+  font-family: "Montserrat-thin";
+}
+
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 10px;
+
+}
+
+.nav-link{
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.pro-icons{
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+.pro-icons:hover{
+  color: #ff4c68;
+}
+
+p{
+  color: #8f8f8f;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+
+/* testimonial section */
+#testimonials{
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press-section */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* on-mobile */
+@media (max-width: 1028px) {
+#title{
+  text-align: center;
+}
+.dog-image{
+  position: static;
+  transform: rotate(0);
+  width: 60%;
+  margin-left: 0px;
+}
+}
+
+/* footer-container */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  color: #fff;
+}
+.footer-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* footer */
+
+#footer{
+  padding: 3% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+.footer-icons{
+  font-size: 25px;
+  margin: 20px 5px;
+}
+.footer-icons:hover{
+  color: #ff4c68;
+}
